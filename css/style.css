@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(201,130,55);
+    background: linear-gradient(90deg, rgba(201,130,55,1) 0%, rgba(246,211,119,1) 16%, rgba(239,199,110,1) 84%, rgba(201,130,55,1) 100%);
+}
+
+.subcontenedor-1{
+    display: inline-flex;
+}
+
+.subcontenedor-1 img{
+    width: 100%;
+}
+
+.contenedor-general-hijo-header-1{
+    background-color: green;
+}
+
+.contenedor-general-hijo-header-2{
+    background-color: red;
+}
+
+.contenedor-general-hijo-header-3{
+    background-color: blue;
+}
