@@ -1,26 +1,141 @@
 body{
     padding: 0;
-    margin: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60%;
+    position: relative;
+}
+
+/* --------------------- HEADER ---------------------- */
+
+.contenedor-general{
     background: rgb(201,130,55);
     background: linear-gradient(90deg, rgba(201,130,55,1) 0%, rgba(246,211,119,1) 16%, rgba(239,199,110,1) 84%, rgba(201,130,55,1) 100%);
 }
 
 .subcontenedor-1{
-    display: inline-flex;
+    width: 100%;
+    height: 140px;
 }
 
 .subcontenedor-1 img{
-    width: 100%;
+    margin-top: 10%;
+    width: 20%;
 }
 
-.contenedor-general-hijo-header-1{
-    background-color: green;
+.contenedor-general-hijo-header-1, 
+.contenedor-general-hijo-header-2,
+.contenedor-general-hijo-header-3 {
+    position: absolute;
+    font-family: 'Sassy Frass', cursive;
+    font-size: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-general-hijo-header-1, 
+.contenedor-general-hijo-header-3 {
+    width: 20%;
+    height: 9%;
+}
+
+.contenedor-general-hijo-header-1 p,
+.contenedor-general-hijo-header-3 p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 .contenedor-general-hijo-header-2{
-    background-color: red;
+    width: 58%;
+    height: 9%;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.contenedor-general-hijo-header-2 h1{
+    margin: 1%;
+    padding: 0;
+}
+
+.contenedor-general-hijo-header-2 img{
+    margin-top: 0;
+    width: 100%;
+    height: 30px;
 }
 
 .contenedor-general-hijo-header-3{
-    background-color: blue;
+    right: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
 }
+/* -------------------------------------------------- */
+
+/* ------------------ BODY -------------------- */
+
+.contenedores-generales-body{
+    width: 100%;
+    height: 1040px;
+}
+
+.contenedor-inventario-1,
+.contenedor-mejoras-1,
+.contenedor-novedades-1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    width: 32%;
+}
+
+.contenedor-inventario-1 h2{
+    margin-left: 10px;
+}
+
+.contenedor-inventario-1 p{
+    margin-left: 10px;
+}
+
+.contenedor-inventario-1  img{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.contenedor-mejoras-1 {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.contenedor-mejoras-1  img{
+    width: 100%;
+}
+
+.contenedor-novedades-1 {
+    right: 0;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.contenedor-novedades-1  img{
+    width: 100%;
+}
+
+.subcontenedor-novedades-3 img{
+    width: 50%;
+    height: 120px;
+}
+/* -------------------------------------------- */
+
+/* ------------------- FOOTER -------------------- */
+footer{
+    width: 100%;
+}
+
+footer img{
+    width: 100%;
+    height: 100px;
+}
+/* ----------------------------------------------- */
