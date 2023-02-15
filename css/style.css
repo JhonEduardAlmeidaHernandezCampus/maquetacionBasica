@@ -16,7 +16,7 @@ body{
 
 .subcontenedor-1{
     width: 100%;
-    height: 140px;
+    height: 150px;
 }
 
 .subcontenedor-1 img{
@@ -30,8 +30,6 @@ body{
     position: absolute;
     font-family: 'Sassy Frass', cursive;
     font-size: 100%;
-    justify-content: center;
-    text-align: center;
 }
 
 .contenedor-general-hijo-header-1, 
@@ -40,11 +38,47 @@ body{
     height: 9%;
 }
 
-.contenedor-general-hijo-header-1 p,
-.contenedor-general-hijo-header-3 p{
+.contenedor-medio-hijo{
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.subcontenedor-hijooo {
+    width: 50%;
+    right: 10%;
+    left: 0;
+    margin: auto;
     font-size: 12px;
+}
+
+.subcontenedor-hijooo-2 {
+    width: 50%;
+    margin: 0px 100px auto;
+    font-size: 12px;
+}
+
+.subcontenedor-hijooo-2 img{
+    width: 50%;
+}
+
+.subcontenedor-hijooo-2 p{
     padding: 0;
     margin: 0;
+}
+
+.subcontenedor-hijooo img{
+    width: 50%;
+}
+
+.subcontenedor-hijooo p{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-general-hijo-header-1{
+    width: 20%;
 }
 
 .contenedor-general-hijo-header-2{
@@ -79,7 +113,7 @@ body{
 
 .contenedores-generales-body{
     width: 100%;
-    height: 1040px;
+    height: 1100px;
 }
 
 .contenedor-inventario-1,
