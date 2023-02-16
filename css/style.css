@@ -7,21 +7,22 @@ body{
     position: relative;
 }
 
-/* --------------------- HEADER ---------------------- */
-
-.contenedor-general{
-    background: rgb(201,130,55);
-    background: linear-gradient(90deg, rgba(201,130,55,1) 0%, rgba(246,211,119,1) 16%, rgba(239,199,110,1) 84%, rgba(201,130,55,1) 100%);
+.imagen-inicio-arrugada{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
 }
+
+/* --------------------- HEADER ---------------------- */
 
 .subcontenedor-1{
     width: 100%;
     height: 180px;
 }
 
-.subcontenedor-1 img{
-    margin-top: 10%;
-    width: 20%;
+.imagen-1{
+    margin-top: 20%;
 }
 
 .contenedor-general-hijo-header-1, 
@@ -39,10 +40,20 @@ body{
 }
 
 .contenedor-medio-hijo{
-    width: 48%;
+    width: 100%;
+    height: 60px;
+    position: relative;
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.contenedor-medio-hijo h1{
+    position: absolute;
+    padding: 0;
+    left: 25%;
+    margin: auto;
+    font-size:300%;
 }
 
 .subcontenedor-hijooo {
@@ -90,16 +101,10 @@ body{
     margin: auto;
 }
 
-.contenedor-general-hijo-header-2 h1{
-    margin: 14px 0px;
-    font-size: 250%;
-    padding: 0;
-}
-
 .contenedor-general-hijo-header-2 img{
     margin-top: 0;
     width: 100%;
-    height: 30px;
+    height: 60px;
 }
 
 .contenedor-general-hijo-header-3{
@@ -107,6 +112,13 @@ body{
     top: 0;
     right: 0;
     margin: auto;
+}
+
+.img-2-todo{
+    color: black;
+    margin-top: 11%;
+    width: 100%;
+    height: 60px;
 }
 /* -------------------------------------------------- */
 
@@ -120,7 +132,6 @@ body{
 .contenedor-inventario-1,
 .contenedor-mejoras-1,
 .contenedor-novedades-1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     width: 32%;
 }
@@ -131,10 +142,20 @@ body{
 
 .contenedor-inventario-1 p{
     margin-left: 10px;
+    font-size: 125%;
 }
 
 .contenedor-inventario-1  img{
     width: 100%;
+}
+
+.subcontenedor-inventario-1{
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.subcontenedor-inventario-2{
     margin-left: 10px;
 }
 
@@ -142,6 +163,34 @@ body{
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.contenedor-mejoras-1 p{
+    font-size: 125%;
+}
+
+.subcontenedor-mejoras-1,
+.subcontenedor-mejoras-2,
+.subcontenedor-mejoras-3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.subcontenedor-mejoras-2 h2,
+.subcontenedor-mejoras-3 h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subcontenedor-mejoras-2 p,
+.subcontenedor-mejoras-3 p {
+    margin-top: 0;
+}
+
+
+.subcontenedor-mejoras-3 img{
+    margin-bottom: 20px;
+    height: 169px;
 }
 
 .contenedor-mejoras-1  img{
@@ -154,22 +203,85 @@ body{
     margin-right: 10px;
 }
 
-.contenedor-novedades-1  img{
+.contenedor-novedades-1 p{
+    font-size: 125%;
+}
+
+.subcontenedor-novedades-1,
+.subcontenedor-novedades-2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.subcontenedor-novedades-1 h2{
+    margin-bottom: 0;
+}
+
+.subcontenedor-novedades-1 img{
+    height: 140px;
+}
+
+.subcontenedor-novedades-1-p2{
+    margin-bottom: 20px;
+    margin-top:0S
+}
+
+.subcontenedor-novedades-1-p1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contenedor-novedades-1 img{
     width: 100%;
 }
 
+.subcontenedor-novedades-2  img{
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+.subcontenedor-novedades-3 {
+    height: 160px;
+}
+
+.subcontenedor-novedades-3 h2{
+    margin-bottom: 0;
+}
+
+.subcontenedor-novedades-3 .p-1{
+    position: absolute;
+    width: 55%;
+    margin-top: 0;
+    right: 0;
+}
+
 .subcontenedor-novedades-3 img{
-    width: 50%;
-    height: 120px;
+    position: absolute;
+    width: 40%;
+    height: 130px;
+}
+
+.subcontenedor-novedades-4{
+    margin-top: 0;
+    padding: 0;
+}
+
+.p-2{
+    margin: 0;
+    padding: 0;
 }
 /* -------------------------------------------- */
 
 /* ------------------- FOOTER -------------------- */
 footer{
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 footer img{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100px;
 }
